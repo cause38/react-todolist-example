@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "sass --watch --error-css --color src/assets/sass:src/assets/css",
+    "sass-dev": "sass src/assets/sass:src/assets/css",
+    "sass-build": "sass --style compressed --no-source-map src/assets/sass:src/assets/css"
   },
   "eslintConfig": {
     "extends": [
